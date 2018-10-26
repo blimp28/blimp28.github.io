@@ -44,12 +44,17 @@ h1 {
         background-color: #c0e0c3;
 font-size: 24px;
 height: 300px;
-overflow: scroll;
+overflow: hidden;
         }
-      .bio-box {
-        border: 1px solid black;
-      font-size: 1rem;
-    }
+        .bio-box {
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    font-size: 1rem;
+    margin: 20px;
+    padding: 2%;
+    width: 25%;
+  }
       .bio-copy a {
         color: green;
       }
@@ -171,7 +176,7 @@ overflow: scroll;
         The Future
       </p>
     </div>
-    <h4>I'm an h4</h4>
+    <h3>I'm an h3</h3>
 
 <div class="test-box">
   200px wide
